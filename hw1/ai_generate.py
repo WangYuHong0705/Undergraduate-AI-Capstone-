@@ -6,7 +6,7 @@ import pandas as pd
 # ==========================================
 # 1. 配置與初始化
 # ==========================================
-genai.configure(api_key="AIzaSyB9aXFXCqs2jzYZENIBAQXiyWWt6Ox2vuk")  # ⚠️ 建議不要寫死 key
+genai.configure(api_key="api_key")  # ⚠️ 建議不要寫死 key
 
 model = genai.GenerativeModel('gemma-3-27b-it')
 
